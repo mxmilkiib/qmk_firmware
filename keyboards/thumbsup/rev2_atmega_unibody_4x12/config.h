@@ -39,7 +39,7 @@
 
 
 //The number of layers for VIA/REMAP
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
 
 //This disables the auto-repeat for the double-action keys (e.g. S+LAlt)
 #define QUICK_TAP_TERM 0

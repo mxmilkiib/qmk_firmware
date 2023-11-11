@@ -29,7 +29,7 @@
 //#undef I2C1_SDA_PIN
 //#define I2C1_SDA_PIN GP24
 
-/* #define EE_HANDS  */
+#define EE_HANDS
 /* #define MASTER_LEFT */
 /* #define MASTER_RIGHT */
 /* #define SPLIT_HAND_PIN GP18*/
