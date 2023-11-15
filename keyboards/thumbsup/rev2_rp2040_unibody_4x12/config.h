@@ -25,9 +25,10 @@
 
 #define POINTING_DEVICE_ROTATION_90
 #define CIRQUE_PINNACLE_TAP_ENABLE
+
 // Limits the frequency that the sensor is polled for motion.
 #define POINTING_DEVICE_TASK_THROTTLE_MS 10
-//#define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE
+#define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE
 
 // Circular scroll
 // Isn't it making the cursor jittering?
