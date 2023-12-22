@@ -87,3 +87,6 @@
 
 //This disables the auto-repeat for the double-action keys (e.g. S+LAlt)
 #define QUICK_TAP_TERM 0
+
+//
+#define PICO_XOSC_STARTUP_DELAY_MULTIPLIER 64
