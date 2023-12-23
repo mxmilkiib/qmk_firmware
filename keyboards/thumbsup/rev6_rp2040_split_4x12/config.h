@@ -79,7 +79,7 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 40
  
 
-#define USB_POLLING_INTERVAL_MS 1
+#define USB_POLLING_INTERVAL_MS 10
 
 
 //The number of layers for VIA/REMAP
@@ -90,3 +90,6 @@
 
 //
 #define PICO_XOSC_STARTUP_DELAY_MULTIPLIER 64
+
+// Attempting to reduce the lag between the halves
+#define MATRIX_IO_DELAY 15 
