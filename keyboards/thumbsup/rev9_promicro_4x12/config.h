@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 5
 
 //The number of layers for VIA/REMAP
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+#define DYNAMIC_KEYMAP_LAYER_COUNT 18
 
 //This disables the auto-repeat for the double-action keys (e.g. S+LAlt)
 #define QUICK_TAP_TERM 0
