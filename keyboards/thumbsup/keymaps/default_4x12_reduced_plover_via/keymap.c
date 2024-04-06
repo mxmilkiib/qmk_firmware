@@ -169,7 +169,7 @@ h * |------+------+------+------+------+-------------+------+------+------+-----
  * ,-----------------------------------------------------------------------------------.
  * | Esc  |BREAK |PLOVR2|PLOVER|TxBOLT|TxBlt2|   `  |   =  |   (  |   )  |   -  |      |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |******|      |      |      |      |      |PrtScr|      |      |      |  '   |      |
+ * |******|      |      |      |CapsLk|      |PrtScr|      |      |      |  '   |      |
    This is the
    key turning
    this layer on
@@ -181,7 +181,7 @@ h * |------+------+------+------+------+-------------+------+------+------+-----
  */
 [_EXTRARIGHT] = LAYOUT_ortho_4x12( \
   _______, KC_BRK,  XXXXXXX, PLOVER,       STENO_TXBOLT, XXXXXXX,       KC_GRV,  KC_EQL,  KC_LPRN, KC_RPRN, KC_MINS, _______, \
-  _______, XXXXXXX, XXXXXXX, XXXXXXX,      XXXXXXX,      XXXXXXX,       KC_PSCR, XXXXXXX, XXXXXXX, XXXXXXX, KC_QUOT, _______, \
+  _______, XXXXXXX, XXXXXXX, XXXXXXX,      KC_CAPS,      XXXXXXX,       KC_PSCR, XXXXXXX, XXXXXXX, XXXXXXX, KC_QUOT, _______, \
   _______, XXXXXXX, XXXXXXX, TG(_NUMPAD),  XXXXXXX,      XXXXXXX,       XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC, KC_BSLS, _______, \
                     _______, _______,      _______, 	    _______,       _______, _______, _______, _______  \
  
