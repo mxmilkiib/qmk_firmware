@@ -8,3 +8,9 @@ IS THIS STILL TRUE?
 Note in this initial revision the thumb keys are swapped in error.
 I temporarily swapped them in info.json file.
 The next revision will put in the right spots.  
+
+
+In v10 I made a mistake - connectors J1 and J28 to columns on the bottom PCB are oriented opposite to J20 and J24 on the middle PCB.
+That put columns for those four columns in the bottom plate in the reverse order.
+I compensated that in the matrix definition.
+No big deal, will leave it as is.
